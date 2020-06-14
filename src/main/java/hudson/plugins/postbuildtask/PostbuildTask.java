@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package hudson.plugins.postbuildtask;
+package hudson.plugins.prebuildtask;
 
 import hudson.Extension;
 import hudson.Launcher;
@@ -30,8 +30,8 @@ import hudson.model.AbstractBuild;
 import hudson.model.BuildListener;
 import hudson.model.Result;
 import hudson.tasks.BatchFile;
-import hudson.tasks.BuildStepDescriptor;
-import hudson.tasks.BuildStepMonitor;
+import hudson.tasks.BuildDescriptor;
+import hudson.tasks.BuildMonitor;
 import hudson.tasks.CommandInterpreter;
 import hudson.tasks.Publisher;
 import hudson.tasks.Recorder;
